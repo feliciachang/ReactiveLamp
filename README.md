@@ -1,5 +1,9 @@
 # ReactiveLamp
 
+![alt text](https://felswebsite.s3.amazonaws.com/lamp1.jpg)
+
+![alt text](https://felswebsite.s3.amazonaws.com/lamp2.jpg)
+
 ## Inspiration
 Over this semester, I had been continually interested in the space of self-actuating materials and light sculptures. I had been quite inspired by work in human computer interaction involving conductive textiles as a mechanism for movement. Because I didn’t have the expertise of creating self-actuating textiles, I wanted to explore how I could create a structure that would allow me to use motors to embed movement. 
 
@@ -33,6 +37,4 @@ But I would recommend the three way swtich if you do not have access to the anal
 
 I used an 12V LED light strip that was roughly 2 meters long. The LED strip consists of 4 inputs: power, R, G, and B, which are connected to ground. To power the LED, relay 12 volts of power from the breadboard to the LED strip while controlling RGB from my ESP. I also thought it would be interesting to connect a photoreceptor to my ESP which would then feed in values to the LED strip. I ultimately did not pursue this additional feature, but it is available in the code.
 
-
-
-
+![alt text](https://felswebsite.s3.amazonaws.com/schematicesp32.png)
